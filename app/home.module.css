@@ -1,0 +1,30 @@
+.main {
+}
+.p {
+  font-size: large;
+  width: 600px;
+  font-family: "retro vintage", sans-serif;
+}
+.bg {
+  background-image: url("/projecteur.jpeg");
+  background-size: cover;
+  background-position: 20% 90%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.heroSection {
+  margin-top: 30px;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.photoPro{
+  justify-self: flex-end;
+  align-self: flex-end;
+}
