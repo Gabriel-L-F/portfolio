@@ -11,10 +11,9 @@ export default function AboutPage() {
                 About Me
             </h1>
             <p>
-                J'ai fait un lycée générale avec comme spécialité Mathematique, Science de l'ingenieure et Numérique et Science de l'informatique dans 
-                les quelles j'ai pue accérie les bases des matieres en question, apres l'optantion du BAC j'ai été faire une année dans a l'ESILV en bachelore 
-                engenierie numérique spécialisé dans la cybersécurité, apres ma premiere année j'ai decidé de me reorienté a l'IIM en spécialité coding
-                et digital inovation. 
+            J’ai effectué un lycée général avec comme spécialités Mathématiques, Sciences de l’ingénieur et Numérique et Sciences informatiques, dans lesquelles
+             j’ai pu acquérir les bases des matières en question. Après l’obtention du baccalauréat, j’ai effectué une année à l’ESILV en bachelor Ingénierie numérique, 
+             spécialisé en cybersécurité. Après cette première année, j’ai décidé de me réorienter vers l’IIM en spécialité Coding & Digital Innovation. 
             </p>
             <h2>
                 Mes compétences
