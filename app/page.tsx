@@ -11,11 +11,10 @@ export default function Home() {
         <div className={`${style.heroSection}`}>
           <div className={`${style.container}`}>
             <p className={`${style.p}`}>
-              Je suis Gabriel Lefebvre Fristot, étudiant a l'institu de l'internet et du multimedia spécialisé dans le développement web, passionné 
-              par la création d’applications web interactives et l’optimisation de l’expérience utilisateur, je m’intéresse particulièrement aux 
-              technologies front-end et back-end.
-              Au cours de ma formation, j’ai travaillé sur plusieurs projets scolaires, allant de sites web responsives à 
-              des applications web dynamiques, ce qui m’a permis de développer mes compétences dans le web aussi bien dans les hard skills que les soft skills
+            Je suis Gabriel Lefebvre Fristot, étudiant à l’Institut de l’Internet et du Multimédia, spécialisé en développement web. Passionné par la création
+            d’applications web interactives et l’optimisation de l’expérience utilisateur, je m’intéresse particulièrement aux technologies front-end et back-end.
+            Au cours de ma formation, j’ai travaillé sur plusieurs projets scolaires, allant de sites web responsives à des applications web dynamiques,
+            ce qui m’a permis de développer mes compétences dans le domaine du web, tant sur le plan des hard skills que des soft skills.            
             </p>   
           </div>
             <Image
