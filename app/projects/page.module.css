@@ -8,9 +8,7 @@
 .header{
     color: white;
 }
-.project{
-    background-color: aqua;
-}
+
 .content{
     display: flex;
     flex-direction: column;

@@ -18,13 +18,90 @@
   width: 100%;
 }
 .heroSection {
-  margin-top: 30px;
+  margin:3% 0 0 35%;
   display: flex;  
   align-items: center;
   justify-content: center;
-  width: 90%;
 }
 .photoPro{
   justify-self: flex-end;
   align-self: flex-end;
+
+}
+
+@media screen and (min-width: 2560px) {
+  .heroSection {
+    margin:14% 0 0 35%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+  .p{
+    font-size: 2rem;
+    width: 800px;
+    font-family: "retro vintage", sans-serif;
+  }
+
+  .photoPro{
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .heroSection {
+    margin: 10% 0 0 35%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .bg{
+    background-image: none;
+  }
+
+  .heroSection {
+    margin: 5% 5%;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photoPro{
+    width: 300px;
+    height: 400px;
+    justify-self: unset;
+    align-self: unset;
+  }
+  
+  .p{
+    font-size: medium;
+    width: 100%;
+    font-family: "retro vintage", sans-serif;
+  }
+}
+
+@media (width: 1024px) {
+  .heroSection {
+    margin: 10% 0 0 35%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .p{
+    font-size: small;
+    width: 400px;
+    font-family: "retro vintage", sans-serif;
+  }
+
+  .photoPro{
+    width: 200px;
+    height: 200px;
+  }
 }

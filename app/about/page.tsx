@@ -19,9 +19,9 @@ export default function AboutPage() {
             <h2>
                 Mes compétences
             </h2>
-             <div className="flex flex-col md:flex-row gap-12 mt-8">
+             <div className={`flex flex-col md:flex-row gap-12 mt-8 ${style.skills}`}>
                 <div>
-                    <h2 className="text-xl font-semibold mb-2">Hard Skills</h2>
+                    <h2 className="text-xl 2xl:text-3xl font-semibold mb-2">Hard Skills</h2>
                     <ul className="list-disc list-inside">
                     <li>HTML</li>
                     <li>SCSS</li>
@@ -36,7 +36,7 @@ export default function AboutPage() {
                     </ul>
                 </div>
                 <div>
-                    <h2 className="text-xl font-semibold mb-2">Soft Skills</h2>
+                    <h2 className="text-xl 2xl:text-3xl font-semibold mb-2">Soft Skills</h2>
                     <ul className="list-disc list-inside">
                     <li>Gestion de projet Agile</li>
                     <li>Acquisition de connaissances</li>

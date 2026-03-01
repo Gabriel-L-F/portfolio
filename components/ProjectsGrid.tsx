@@ -33,11 +33,11 @@ export default function ProjectsGrid() {
             key={project.slug}
             onClick={() => handleClick(project.slug)}
             className={`
-              cursor-pointer p-6 bg-white rounded-xl transition-all duration-300
-              ${isOpen ? "shadow-2xl scale-[1.02]" : "shadow hover:shadow-lg"}
+              cursor-pointer p-6 bg-white rounded-xl transition-all duration-300  2xl:text-3xl
+              ${isOpen ? "shadow-2xl scale-[1.02]" : "shadow hover:shadow-lg  2xl:text-3xl"}
             `}
           >
-            <h2 className="text-2xl font-semibold">{project.title}</h2>
+            <h2 className="text-2xl font-semibold 2xl:text-5xl">{project.title}</h2>
 
             <p className="mt-2 text-gray-600">
               {project.description}
@@ -56,7 +56,7 @@ export default function ProjectsGrid() {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="px-3 py-1 text-sm bg-gray-100 rounded-full"
+                        className=" 2xl:text-3xl px-3 py-1 text-sm bg-gray-100 rounded-full"
                       >
                         {tech}
                       </span>

@@ -22,7 +22,7 @@ export default function Nav() {
   };
 
   return (
-    <div className=" h-24 items-center w-full flex bg-transparent">
+    <div className="2xl:text-3xl h-24 items-center w-full flex bg-transparent">
     <nav className="w-full">
       <Link href="/">A l'affiche</Link>
       <Link href="/projects">Mes Projet</Link>
